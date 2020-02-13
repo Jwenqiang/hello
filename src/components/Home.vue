@@ -118,6 +118,7 @@ export default {
 	  
 	  // 两种形式
   goto1(){
+	  this.$message("提示");
 	this.$router.push({name:"Hw",params:{id:'123'}})
   },
   goto2(){
