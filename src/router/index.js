@@ -25,7 +25,7 @@ export default new Router({
 			path: '/home',
 			component:Home,
 		  children:[        //子路由,嵌套路由 
-			{path:'child1',name:'child1',component:Child},
+			{path:'/child1',name:'child1',component:Child},
 			{path:'child2',name:'child2',component:Hello}
 		  ]			
 		},//默认的首页

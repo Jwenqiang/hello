@@ -2,14 +2,14 @@
 	<div>
 		<p>显示vuex公共data : {{$store.state.count}}   计算属性的：{{$store.getters.getterCount}}</p>
 		<div>
-			      <button @click="handleAddClick(10)">增加</button>
-			      <button @click="handleReduceClick(10)">减少</button>
+			      <button @click="handleAddClick(1)">增加</button>
+			      <button @click="handleReduceClick(1)">减少</button>
 		</div>
 		
  <div>异步操作</div>
   <div>
-    <button @click="handleActionsAdd(10)">异步增加</button>
-    <button @click="handleActionsReduce(10)">异步减少</button>
+    <button @click="handleActionsAdd(1)">异步增加</button>
+    <button @click="handleActionsReduce(1)">异步减少</button>
   </div>		
 		
 		<p>{{msg}}</p>

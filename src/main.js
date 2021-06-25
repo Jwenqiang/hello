@@ -16,8 +16,8 @@ import store from './vuex/store' // 引入store vuex
 
 import App from './App.vue'
 
-Vue.prototype.GLOBAL = global_;
-axios.defaults.baseURL=global_.BASE_URL;
+// Vue.prototype.GLOBAL = global_;
+// axios.defaults.baseURL=global_.BASE_URL;
 
 Vue.config.productionTip = false
 Vue.use(ElementUI)

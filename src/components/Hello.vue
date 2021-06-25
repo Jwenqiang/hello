@@ -151,11 +151,16 @@
 			getData(){
 				var _this=this;
 			//首页行情数据
-			_this.$axios.get("/System/GetHousePricedataByRegionId",{
+			// _this.$axios.get("/System/GetHousePricedataByRegionId",{
+			// 	params:{
+			// 		RegionId:233,
+			// 	}
+			// })
+			_this.$axios.get('/System/GetHousePricedataByRegionId',{
 				params:{
 					RegionId:233,
 				}
-			})
+			})			
 				.then(function(r) {
 					console.log(r);
 					_this.szhq = r.data.data;

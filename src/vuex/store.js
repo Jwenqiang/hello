@@ -19,8 +19,9 @@ const getters = {
  */
 const mutations = {
     mutationsAddCount(state, n = 0) {
-		state.count=n;
-		console.log(state.count)
+		console.log(n);
+		// state.count=n;
+		// console.log(state.count)
         return (state.count += n)
     },
     mutationsReduceCount(state, n = 0) {
